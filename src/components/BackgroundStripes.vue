@@ -10,8 +10,6 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-
 const orange = '#F32929'
 const black = '#100417'
 const white = '#F7F4F3'
@@ -35,7 +33,6 @@ const stripeStyle = (idx: number) => {
   const margin = 8 // vw
   const usable = 100 - margin * 2
   const spacing = usable / 5
-  const left = `calc(${margin}vw + ${idx} * ${spacing}vw)`
   return {
     left: `calc(${margin}vw + ${idx} * ${spacing}vw)`,
     width: '1px',

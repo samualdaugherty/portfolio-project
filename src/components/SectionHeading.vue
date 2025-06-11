@@ -120,7 +120,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 
-const props = defineProps({
+defineProps({
   mainText: String,
   smallText: String,
   bgText: String,
