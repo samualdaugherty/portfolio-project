@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sambuilt.it/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1 
