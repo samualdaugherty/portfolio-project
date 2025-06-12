@@ -8,7 +8,7 @@
                 </h1>
             </div>
             <div class="flex items-center ml-0 mt-8 lg:ml-8 lg:mt-0 z-0 lg:mr-[-6rem] w-full lg:w-auto max-w-2xl">
-                <img src="/Seated-Pic.png" alt="Samual Seated" class="w-full lg:w-[480px] h-auto hero-drop-shadow object-contain"
+                <img src="/Seated-Pic.webp" alt="Samual Seated" class="w-full lg:w-[480px] h-auto hero-drop-shadow object-contain"
                     style="max-width: none;" />
             </div>
         </section>

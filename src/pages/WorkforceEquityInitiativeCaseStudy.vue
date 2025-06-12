@@ -71,7 +71,7 @@
       <div class="w-full lg:max-w-xl flex-shrink-0">
         <div class="flex flex-col sm:flex-row gap-2 md:gap-4">
           <img 
-            src="/wei-3.png" 
+            src="/wei-3.webp" 
             alt="Workforce Equity Initiative Screenshot" 
             class="w-full lg:w-[540px] h-auto hero-drop-shadow rounded-2xl"
           />
@@ -214,7 +214,7 @@
     </div>
     
     <!-- MVP Content Section -->
-    <div class="relative z-10 w-full max-w-[1200px] mt-8 mb-16">
+    <div class="relative w-full max-w-[1200px] mt-8 mb-16">
       <!-- Orange Bar -->
       <img src="/mvp-bar.svg" alt="MVP Bar" class="absolute left-6 -top-[21rem] w-[125px] lg:w-[175px] h-auto z-0 hidden lg:block" />
       
@@ -232,10 +232,10 @@
       </div>
     
         <!-- Screenshot Grid -->
-        <div class="w-full mt-8">
+        <div class="relative z-10 w-full mt-8">
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4">
             <img 
-                src="/wei-final-1.png" 
+                src="/wei-final-1.webp" 
                 alt="Workforce Equity Initiative Final 1" 
                 class="w-full h-auto hero-drop-shadow rounded-md"
             />

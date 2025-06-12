@@ -61,7 +61,7 @@
       <!-- Right: Image -->
       <div class="w-full lg:max-w-3xl">
         <img 
-          src="/blueprint-sketch-to-final.png" 
+          src="/blueprint-sketch-to-final.webp" 
           alt="Blueprint Sketch to Final Design" 
           class="w-full h-auto hero-drop-shadow rounded-2xl"
         />
@@ -162,7 +162,7 @@
           class="w-full h-auto hero-drop-shadow rounded-2xl"
         />
         <img 
-          src="/bp-wireframe-sketches.png" 
+          src="/bp-wireframe-sketches.webp" 
           alt="Blueprint Wireframe Sketches" 
           class="w-full h-auto hero-drop-shadow rounded-2xl"
         />

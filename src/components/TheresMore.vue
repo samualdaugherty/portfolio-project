@@ -17,7 +17,7 @@
     <!-- Top Row: Image + Paragraph + Orange Bar -->
     <div class="flex flex-col xl:flex-row items-start xl:items-end w-full relative translate-y-8 xl:-translate-y-16" style="min-height: 260px;">
       <!-- Left-aligned Image -->
-      <img src="/wireframe-pic.png" alt="Bio" class="relative h-auto w-[500px] object-cover rounded-2xl ml-0 xl:ml-[-64px] mb-8 xl:mb-0 z-20 hero-drop-shadow" />
+      <img src="/wireframe-pic.webp" alt="Bio" class="relative h-auto w-[500px] object-cover rounded-2xl ml-0 xl:ml-[-64px] mb-8 xl:mb-0 z-20 hero-drop-shadow" />
       <!-- Paragraph -->
       <div class="flex-1 flex-col items-end w-full">
         <p class="pl-0 lg:pl-8 mb-4 text-black dark:text-white text-body w-full lg:max-w-[80%] xl:max-w-lg">

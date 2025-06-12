@@ -11,7 +11,7 @@
     </div>
     <div class="ml-0 mt-0 sm:mt-8 lg:ml-6 lg:mt-0 flex items-center w-full lg:w-auto max-w-2xl">
       <img 
-        :src="isLargeScreen ? '/Portrait.png' : '/Portrait-landscape.png'" 
+        :src="isLargeScreen ? '/Portrait.webp' : '/Portrait-landscape.webp'" 
         alt="Samual Portrait" 
         class="w-full lg:w-[360px] h-auto hero-drop-shadow" 
       />

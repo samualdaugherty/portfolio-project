@@ -55,7 +55,7 @@
           <img 
             v-for="n in 2" 
             :key="n" 
-            :src="`/wei-${n}.png`" 
+            :src="`/wei-${n}.webp`" 
             :alt="`Workforce Equity Initiative screenshot ${n}`" 
             class="w-full md:w-[49%] lg:w-[420px] h-auto hero-drop-shadow rounded-2xl"
           />

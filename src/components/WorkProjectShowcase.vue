@@ -45,7 +45,7 @@
             :to="linkTo"
           >
             <img 
-              :src="`/${imagePrefix}-${n}.png`" 
+              :src="`/${imagePrefix}-${n}.${imagePrefix === 'wei' ? 'webp' : 'png'}`" 
               :alt="`${title} screenshot ${n}`" 
               :class="getImageClasses()"
             />
@@ -103,7 +103,7 @@
               class="block"
             >
               <img 
-                :src="`/${imagePrefix}-${n}.png`" 
+                :src="`/${imagePrefix}-${n}.${imagePrefix === 'wei' ? 'webp' : 'png'}`" 
                 :alt="`${title} screenshot ${n}`" 
                 :class="getDesktopImageClasses()"
               />

@@ -46,7 +46,7 @@
       <!-- Contact Image -->
       <div class="ml-0 mt-8 lg:ml-6 lg:mt-0 flex items-start w-full lg:w-auto max-w-2xl">
         <img 
-          src="/Portrait-landscape.png" 
+          src="/Portrait-landscape.webp" 
           alt="Samual Contact Portrait" 
           class="w-full lg:w-[560px] h-auto hero-drop-shadow" 
         />

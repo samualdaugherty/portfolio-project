@@ -139,7 +139,7 @@
       <!-- Right: Image -->
       <div class="lg:w-[480px] flex-shrink-0">
         <img 
-          src="/matching-table.jpg" 
+          src="/matching-table.webp" 
           alt="Matching Table" 
           class="w-full h-auto hero-drop-shadow rounded-2xl"
         />

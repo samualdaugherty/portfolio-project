@@ -88,7 +88,7 @@
     linkTo="/work/today-card-app"
     />
 
-    <!-- Case Study: Product Comparison -->
+    <!-- Case Study: Workforce Equity Initiative -->
     <WorkProjectShowcase 
       title="Illinois College Board"
       shortTitle="Illinois College Board"
