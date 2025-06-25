@@ -360,6 +360,17 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '@vueuse/head'
+import { generateBlogMeta } from '../utils/meta'
+
+// Set up dynamic meta tags for social sharing
+useHead(generateBlogMeta({
+  title: 'Why I Still Write, Even When No One\'s Listening | Sam Daugherty',
+  description: 'Some people write because they need to get their thoughts out. See them more clearly from that 30,000-foot view. I would write for the sole purpose of hoping to one day monetize it. I was "grinding," because social media told me I needed that "hustle culture." There was a common platitude to "never do anything for free." And, well, it almost killed me.',
+  image: '/writing-alone.png',
+  url: '/writing/why-i-still-write'
+}))
+
 // Social sharing functions
 const shareToFacebook = () => {
   const url = encodeURIComponent(window.location.href)

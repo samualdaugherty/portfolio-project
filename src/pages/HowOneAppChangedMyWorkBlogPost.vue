@@ -240,6 +240,17 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '@vueuse/head'
+import { generateBlogMeta } from '../utils/meta'
+
+// Set up dynamic meta tags for social sharing
+useHead(generateBlogMeta({
+  title: 'How One App Changed the Way I Work (and Think) | Sam Daugherty',
+  description: 'Imagine this: you\'ve been at your job for 8 years and you\'re ready for a change. You dust off your old resume to update it, look at your portfolio website if you have one, and realize all of it is shit. What do you do?',
+  image: '/day-one-header.png',
+  url: '/writing/how-one-app-changed-my-work'
+}))
+
 // Social sharing functions
 const shareToFacebook = () => {
   const url = encodeURIComponent(window.location.href)

@@ -326,6 +326,17 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '@vueuse/head'
+import { generateBlogMeta } from '../utils/meta'
+
+// Set up dynamic meta tags for social sharing
+useHead(generateBlogMeta({
+  title: 'Print Journalism Layouts Should Make a Comeback | Sam Daugherty',
+  description: 'There\'s something wonderful about having a fixed-size for your canvas and being able to play around with layouts that doesn\'t translate well to responsive design. But I think we just aren\'t being creative enough.',
+  image: '/print-layout-header-bw.png',
+  url: '/writing/print-journalism-layouts'
+}))
+
 // Social sharing functions
 const shareToFacebook = () => {
   const url = encodeURIComponent(window.location.href)

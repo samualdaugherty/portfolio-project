@@ -264,6 +264,17 @@
 </template>
 
 <script setup>
+import { useHead } from '@vueuse/head'
+import { generateBlogMeta } from '../utils/meta'
+
+// Set up dynamic meta tags for social sharing
+useHead(generateBlogMeta({
+  title: 'Kids, It\'s Time to Build the Thing | Sam Daugherty',
+  description: 'I know. I know! All the posts about vibe coding are getting old and annoying, but I felt compelled to write one, because it\'s something that all Designers should attempt. Like, really try to take that idea you\'ve had brewing for years and try to build it. Because I did that, and it was shockingly easy.',
+  image: '/eat-sleep-code.png',
+  url: '/writing/kids-time-to-build'
+}))
+
 // Social sharing functions
 const shareToFacebook = () => {
   const url = encodeURIComponent(window.location.href)

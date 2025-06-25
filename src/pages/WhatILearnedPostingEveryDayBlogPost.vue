@@ -281,6 +281,17 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '@vueuse/head'
+import { generateBlogMeta } from '../utils/meta'
+
+// Set up dynamic meta tags for social sharing
+useHead(generateBlogMeta({
+  title: 'What I Learned Posting Every Day for 90 Days | Sam Daugherty',
+  description: 'I did it. I did what every guru on the internet says to do. I posted every day. I did it for 90 days straight, and made sure to engage with anyone who liked or commented on my posts. So what did I learn?',
+  image: '/good-enough-header.png',
+  url: '/writing/what-i-learned-posting-every-day'
+}))
+
 // Social sharing functions
 const shareToFacebook = () => {
   const url = encodeURIComponent(window.location.href)

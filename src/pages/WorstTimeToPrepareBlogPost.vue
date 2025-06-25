@@ -315,6 +315,17 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '@vueuse/head'
+import { generateBlogMeta } from '../utils/meta'
+
+// Set up dynamic meta tags for social sharing
+useHead(generateBlogMeta({
+  title: 'The Worst Time to Prepare for a Layoff Is After It Happens | Sam Daugherty',
+  description: 'Layoffs don\'t seem to come with a warning, at least not in the U.S. Mine certainly didn\'t and I was left confused and bewildered after the call ended. Everything I\'m about to share with you, I learned the hard way.',
+  image: '/layoffs-happen-header.png',
+  url: '/writing/worst-time-to-prepare'
+}))
+
 // Social sharing functions
 const shareToFacebook = () => {
   const url = encodeURIComponent(window.location.href)
