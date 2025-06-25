@@ -190,7 +190,7 @@
                 1. Keep Track of the Work You're Doing
             </h2>
             <p class="font-lato text-body text-black dark:text-white leading-relaxed mt-2">
-                This may seem obvious, but people can often <a href="https://www.thinkific.com/blog/ebbinghaus-forgetting-curve/" class="text-accent font-bold hover:underline" target="_blank">forget what they've worked on</a> after just a few days. I keep a journal of the problems I'm solving, the lessons I'm learning, and the successes and failures of the project. I make notes about meeting discussions, product feedback, roadmap changes, and any success stories or pain points we discuss. Anything relevant to my work and, therefore, my portfolio, goes in these notes tagged #keepforlater.
+                This may seem obvious, but people can often <a href="https://www.thinkific.com/blog/ebbinghaus-forgetting-curve/" class="text-accent font-bold hover:underline" target="_blank">forget what they've worked on</a> after just a few days. I <router-link to="/writing/how-one-app-changed-my-work" class="text-accent font-bold hover:underline">keep a journal</router-link> of the problems I'm solving, the lessons I'm learning, and the successes and failures of the project. I make notes about meeting discussions, product feedback, roadmap changes, and any success stories or pain points we discuss. Anything relevant to my work and, therefore, my portfolio, goes in these notes tagged #keepforlater.
             </p>
         </div>
 
