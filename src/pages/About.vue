@@ -52,7 +52,7 @@
                 introvert to my extrovert. We have two kids whom I adore, and we like to go out for treats and travel.
                 One of our favorite pastimes is trying to find the best local donuts and hot chocolates in every city we
                 visit (special shoutout to Doughnut Vault in Chicago).</p>
-            <p class="text-black dark:text-white text-body">I absolutely love a good conversation and a get-to-know-you coffee chat. If you ever want to talk over coffee (or swap cookie recommendations), feel free to reach out at <strong>samual.daugherty@gmail.com</strong>. If you want a more professional summary of me you can read it <a href="#">here</a>.</p>
+            <p class="text-black dark:text-white text-body">I absolutely love a good conversation and a get-to-know-you coffee chat. If you ever want to talk over coffee (or swap cookie recommendations), feel free to reach out at <strong>samual.daugherty@gmail.com</strong>. If you want a more professional summary of me you can <router-link to="/tldr" class="font-bold no-underline text-black dark:text-white hover:text-accent">read it here</router-link>.</p>
         </div>
 
         <!-- Section Heading: A Bit More About Me (left-justified) -->

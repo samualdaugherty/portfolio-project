@@ -17,7 +17,7 @@
         </div>
 
         <!-- Right: Form -->
-        <div class="flex-1 lg:max-w-xl">
+        <div class="relative z-10 flex-1 lg:max-w-xl">
           <!-- Success Message (shown after submission) -->
           <div v-if="formSubmitted" class="py-4 px-4 border border-accent rounded-xl">
             <h3 class="font-alumni font-bold text-[2.5rem] text-accent mb-0">

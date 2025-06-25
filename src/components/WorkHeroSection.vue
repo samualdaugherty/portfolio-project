@@ -42,7 +42,7 @@
           I am an experienced Product Designer based out of Peoria, IL., USA, with almost a decade of experience leading teams in the world of Insurance, FinTech, and e&#8209;Commerce.
         </p>
         <p class="font-lato font-light text-body-large text-left max-w-3xl lg:max-w-lg text-black dark:text-white">
-          If you're a Hiring Manager, <router-link to="/tldr" class="font-bold no-underline text-black dark:text-white">click here for the tl;dr.</router-link>
+          If you're a Hiring Manager, <router-link to="/tldr" class="font-bold no-underline text-black dark:text-white hover:text-accent">click here for the tl;dr.</router-link>
         </p>
       </div>
 

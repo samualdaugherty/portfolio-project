@@ -9,6 +9,13 @@ import BlueprintCaseStudy from './pages/BlueprintCaseStudy.vue'
 import BetterRecommendationsCaseStudy from './pages/BetterRecommendationsCaseStudy.vue'
 import TodayCardCaseStudy from './pages/TodayCardCaseStudy.vue'
 import WorkforceEquityInitiativeCaseStudy from './pages/WorkforceEquityInitiativeCaseStudy.vue'
+import KidsTimeToBuildTheThing from './pages/KidsTimeToBuildTheThing.vue'
+import WorstTimeToPrepareBlogPost from './pages/WorstTimeToPrepareBlogPost.vue'
+import GoodEnoughBlogPost from './pages/GoodEnoughBlogPost.vue'
+import WhyIStillWriteBlogPost from './pages/WhyIStillWriteBlogPost.vue'
+import PrintJournalismLayoutsBlogPost from './pages/PrintJournalismLayoutsBlogPost.vue'
+import HowOneAppChangedMyWorkBlogPost from './pages/HowOneAppChangedMyWorkBlogPost.vue'
+import WhatILearnedPostingEveryDayBlogPost from './pages/WhatILearnedPostingEveryDayBlogPost.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -20,6 +27,13 @@ const routes = [
   { path: '/work/workforce-equity-initiative', component: WorkforceEquityInitiativeCaseStudy },
   { path: '/tldr', component: TLDR },
   { path: '/writing', component: Writing },
+  { path: '/writing/kids-time-to-build', component: KidsTimeToBuildTheThing },
+  { path: '/writing/worst-time-to-prepare', component: WorstTimeToPrepareBlogPost },
+  { path: '/writing/good-enough-design', component: GoodEnoughBlogPost },
+  { path: '/writing/why-i-still-write', component: WhyIStillWriteBlogPost },
+  { path: '/writing/print-journalism-layouts', component: PrintJournalismLayoutsBlogPost },
+  { path: '/writing/how-one-app-changed-my-work', component: HowOneAppChangedMyWorkBlogPost },
+  { path: '/writing/what-i-learned-posting-every-day', component: WhatILearnedPostingEveryDayBlogPost },
   { path: '/contact', component: Contact },
 ]
 

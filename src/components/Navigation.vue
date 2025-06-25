@@ -23,7 +23,7 @@
             <span class="relative z-10">WORK</span>
           </a>
         </router-link>
-        <router-link to="/writing" custom v-slot="{ isActive, href, navigate }" class="hidden">
+        <router-link to="/writing" custom v-slot="{ isActive, href, navigate }">
           <a :href="href" @click="navigate" class="relative font-alumni font-bold text-nav-link" :class="[isDark ? 'text-white dark:hover:text-white' : 'text-black hover:text-black']">
             <span v-if="isActive" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
               <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
@@ -245,7 +245,6 @@
             custom 
             v-slot="{ isActive, href, navigate }"
             @click="closeMobileMenu"
-            class="hidden"
           >
             <a 
               :href="href" 
