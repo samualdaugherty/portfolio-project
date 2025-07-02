@@ -1,9 +1,5 @@
 {
-  "functions": {
-    "api/social-meta.js": {
-      "runtime": "edge"
-    }
-  },
+
   "rewrites": [
     {
       "source": "/writing/(.*)",
