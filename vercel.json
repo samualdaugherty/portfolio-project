@@ -1,5 +1,19 @@
 {
+  "functions": {
+    "src/main.ts": {
+      "runtime": "@vercel/static"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
   "rewrites": [
-    {"source": "/(.*)", "destination": "/"}
+    {
+      "source": "/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)",
+      "destination": "/index.html"
+    }
   ]
 } 
