@@ -1,16 +1,10 @@
 {
-  "headers": [
-    {
-      "source": "/writing/(.*)",
-      "headers": [
-        {
-          "key": "x-pathname",
-          "value": "/writing/$1"
-        }
-      ]
+  "functions": {
+    "api/social-meta.js": {
+      "runtime": "edge"
     }
-  ],
-  "redirects": [
+  },
+  "rewrites": [
     {
       "source": "/writing/(.*)",
       "has": [
@@ -20,11 +14,8 @@
           "value": "(?i).*(facebookexternalhit|Facebookbot|Twitterbot|LinkedInBot|WhatsApp|TelegramBot|SkypeUriPreview|SlackBot|DiscordBot|applebot|GoogleBot).*"
         }
       ],
-      "destination": "/api/social-meta?route=/writing/$1",
-      "permanent": false
-    }
-  ],
-  "rewrites": [
+      "destination": "/api/social-meta?route=/writing/$1"
+    },
     {
       "source": "/((?!api).*)",
       "destination": "/index.html"
