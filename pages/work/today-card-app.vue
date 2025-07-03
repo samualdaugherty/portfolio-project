@@ -289,8 +289,7 @@
 </template>
 
 <script setup>
-import TodayCardHeroSection from '../components/TodayCardHeroSection.vue'
-import SectionHeading from '../components/SectionHeading.vue'
+// Components are auto-imported in Nuxt 3
 </script>
 
 <style scoped>

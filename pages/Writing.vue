@@ -69,12 +69,7 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
-import WritingHeroSection from '../components/WritingHeroSection.vue'
-import ReadMoreButton from '../components/ReadMoreButton.vue'
-import SectionHeading from '../components/SectionHeading.vue'
-import BlogGrid from '../components/BlogGrid.vue'
-import EvergreenFlourish from '../components/EvergreenFlourish.vue'
-import EvergreenBlogPost from '../components/EvergreenBlogPost.vue'
+// Components are auto-imported in Nuxt 3
 import { getPreviousPost, getRemainingPosts } from '../data/blogPosts.js'
 
 const router = useRouter()

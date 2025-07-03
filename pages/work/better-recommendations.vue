@@ -260,8 +260,7 @@
 </template>
 
 <script setup>
-import BetterRecsHeroSection from '../components/BetterRecsHeroSection.vue'
-import SectionHeading from '../components/SectionHeading.vue'
+// Components are auto-imported in Nuxt 3
 </script>
 
 <style scoped>

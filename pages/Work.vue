@@ -114,8 +114,5 @@
 </template>
 
 <script setup>
-import SectionHeading from '../components/SectionHeading.vue'
-import WorkHeroSection from '../components/WorkHeroSection.vue'
-import WorkProjectShowcase from '../components/WorkProjectShowcase.vue'
-import TheresMore from '../components/TheresMore.vue'
+// Components are auto-imported in Nuxt 3
 </script> 

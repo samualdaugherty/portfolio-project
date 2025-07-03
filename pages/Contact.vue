@@ -143,8 +143,7 @@
 
 <script setup>
 import { ref, reactive } from 'vue'
-import ContactHeroSection from '../components/ContactHeroSection.vue'
-import OnwardButton from '../components/OnwardButton.vue'
+// Components are auto-imported in Nuxt 3
 
 const hovered = ref(false)
 const isSubmitting = ref(false)

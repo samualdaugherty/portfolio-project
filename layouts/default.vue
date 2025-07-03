@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import Navigation from '../components/Navigation.vue'
-import BackgroundStripes from '../components/BackgroundStripes.vue'
-import SiteFooter from '../components/SiteFooter.vue'
+// Components are auto-imported in Nuxt 3
 </script>
 
 <template>

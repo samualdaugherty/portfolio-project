@@ -76,9 +76,5 @@
 </template>
 
 <script setup>
-import SectionHeading from '../components/SectionHeading.vue'
-import TLDRHeroSection from '../components/TLDRHeroSection.vue'
-import ExperienceSection from '../components/ExperienceSection.vue'
-import WorkProjectShowcase from '../components/WorkProjectShowcase.vue'
-import TLDRMore from '../components/TLDRMore.vue'
+// Components are auto-imported in Nuxt 3
 </script> 

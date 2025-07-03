@@ -304,8 +304,7 @@
 </template>
 
 <script setup>
-import SectionHeading from '../components/SectionHeading.vue'
-import BlueprintHeroSection from '../components/BlueprintHeroSection.vue'
+// Components are auto-imported in Nuxt 3
 </script>
 
 <style scoped>

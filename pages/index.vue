@@ -21,11 +21,5 @@
 </template>
 
 <script setup>
-import HeroSection from '../components/HeroSection.vue'
-import SectionHeading from '../components/SectionHeading.vue'
-import ProjectShowcase from '../components/ProjectShowcase.vue'
-import ProjectShowcaseToday from '../components/ProjectShowcaseToday.vue'
-import ProjectShowcaseRecs from '../components/ProjectShowcaseRecs.vue'
-import BioSection from '../components/BioSection.vue'
-import TalkSoon from '../components/TalkSoon.vue'
+// Components are auto-imported in Nuxt 3
 </script> 
