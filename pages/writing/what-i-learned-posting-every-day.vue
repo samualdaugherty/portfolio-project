@@ -47,7 +47,7 @@
           <div class="flex flex-row lg:flex-col gap-3">
             <button 
               @click="shareToFacebook"
-              class="w-10 h-10 rounded-full bg-black flex items-center justify-center text-white hover:opacity-80 transition-opacity"
+              class="w-10 h-10 rounded-full bg-transparent flex items-center justify-center text-black dark:text-white hover:opacity-80 transition-opacity"
               aria-label="Share on Facebook"
             >
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -57,7 +57,7 @@
             
             <button 
               @click="shareToTwitter"
-              class="w-10 h-10 rounded-full bg-black flex items-center justify-center text-white hover:opacity-80 transition-opacity"
+              class="w-10 h-10 rounded-full bg-transparent flex items-center justify-center text-black dark:text-white hover:opacity-80 transition-opacity"
               aria-label="Share on Twitter"
             >
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -67,7 +67,7 @@
             
             <button 
               @click="shareToThreads"
-              class="w-10 h-10 rounded-full bg-black flex items-center justify-center text-white hover:opacity-80 transition-opacity"
+              class="w-10 h-10 rounded-full bg-transparent flex items-center justify-center text-black dark:text-white hover:opacity-80 transition-opacity"
               aria-label="Share on Threads"
             >
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 192 192">
@@ -77,7 +77,7 @@
             
             <button 
               @click="shareToBluesky"
-              class="w-10 h-10 rounded-full bg-black flex items-center justify-center text-white hover:opacity-80 transition-opacity"
+              class="w-10 h-10 rounded-full bg-transparent flex items-center justify-center text-black dark:text-white hover:opacity-80 transition-opacity"
               aria-label="Share on Bluesky"
             >
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 600 530">
@@ -87,7 +87,7 @@
             
             <button 
               @click="shareToLinkedIn"
-              class="w-10 h-10 rounded-full bg-[#0A66C2] flex items-center justify-center text-white hover:opacity-80 transition-opacity"
+              class="w-10 h-10 rounded-full bg-transparent flex items-center justify-center text-black dark:text-white hover:opacity-80 transition-opacity"
               aria-label="Share on LinkedIn"
             >
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
