@@ -106,7 +106,7 @@
       </div>
 
       <!-- Large Hero Image -->
-      <div class="relative z-10 mt-8 lg:-mt-24 max-w-[1200px]">
+      <div class="relative z-10 mt-8 lg:-mt-24 max-w-[900px]">
         <img 
           src="/good-enough-header.png" 
           alt="Sometimes, 'Good Enough' Really Is Good Enough in Product Design - Hero Image"

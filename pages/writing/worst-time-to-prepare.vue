@@ -106,7 +106,7 @@
       </div>
 
       <!-- Large Hero Image -->
-      <div class="relative z-10 mt-8 lg:-mt-24 max-w-[1200px]">
+      <div class="relative z-10 mt-8 lg:-mt-24 max-w-[900px]">
         <img 
           src="/layoffs-happen-header.png" 
           alt="The Worst Time to Prepare for a Layoff Is After It Happens - Hero Image"

@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   // App Configuration
   app: {
     head: {
-      title: 'Sam Daugherty - Product Designer',
+      title: 'Sam Daugherty - Product Designer & UX Designer',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }

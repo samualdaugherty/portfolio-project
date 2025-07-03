@@ -106,7 +106,7 @@
       </div>
 
       <!-- Large Hero Image -->
-      <div class="relative z-10 mt-8 lg:-mt-16 max-w-[1200px]">
+      <div class="relative z-10 mt-8 lg:-mt-16 max-w-[900px]">
         <img 
           src="/print-layout-header.png" 
           alt="Print Journalism Layouts Should Make a Comeback - Hero Image"

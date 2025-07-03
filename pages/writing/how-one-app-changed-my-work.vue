@@ -106,7 +106,7 @@
       </div>
 
       <!-- Large Hero Image -->
-      <div class="relative z-10 mt-8 lg:-mt-12 max-w-[1200px]">
+      <div class="relative z-10 mt-8 lg:-mt-12 max-w-[900px]">
         <img 
           src="/day-one-header.png" 
           alt="How One App Changed the Way I Work (and Think) - Hero Image"
