@@ -2,6 +2,14 @@
 // When adding a new post, add it to the TOP of this array
 export const blogPosts = [
   {
+    id: 'what-my-grandpa-taught-me',
+    title: 'What My Grandpa Taught Me About Hard Work and Happiness',
+    excerpt: 'Like most people, I spent a good deal of time trying to figure out what I wanted to do with my life. And, like most people, that usually meant choosing a job. But is that all there is? Is that the meaning of life? Is that all we\'re destined to be? My grandpa didn\'t think so.',
+    date: 'July 16th, 2025',
+    image: '/grandpa-header.png',
+    route: '/writing/what-my-grandpa-taught-me'
+  },
+  {
     id: 'kids-time-to-build',
     title: 'Kids, It\'s Time to Build the Thing',
     excerpt: 'I know. I know! All the posts about vibe coding are getting old and annoying, but I felt compelled to write one, because it\'s something that all Designers should attempt. Like, really try to take that idea you\'ve had brewing for years and try to build it. Because I did that, and it was shockingly easy.',
