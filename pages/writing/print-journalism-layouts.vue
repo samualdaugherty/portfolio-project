@@ -328,9 +328,9 @@
 <script setup lang="ts">
 // Set up dynamic meta tags for social sharing with Nuxt
 useSeoMeta({
-  title: 'Print Journalism Layouts Should Make a Comeback | Sam Daugherty',
+  title: 'Print Journalism Layouts Should Make a Comeback',
   description: 'There\'s something wonderful about having a fixed-size for your canvas and being able to play around with layouts that doesn\'t translate well to responsive design. But I think we just aren\'t being creative enough.',
-  ogTitle: 'Print Journalism Layouts Should Make a Comeback | Sam Daugherty',
+  ogTitle: 'Print Journalism Layouts Should Make a Comeback',
   ogDescription: 'There\'s something wonderful about having a fixed-size for your canvas and being able to play around with layouts that doesn\'t translate well to responsive design. But I think we just aren\'t being creative enough.',
   ogImage: 'https://sambuilt.it/print-layout-header-bw.png',
   ogUrl: 'https://sambuilt.it/writing/print-journalism-layouts',
@@ -338,7 +338,7 @@ useSeoMeta({
   ogSiteName: 'Sam Daugherty Portfolio',
   ogLocale: 'en_US',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Print Journalism Layouts Should Make a Comeback | Sam Daugherty',
+  twitterTitle: 'Print Journalism Layouts Should Make a Comeback',
   twitterDescription: 'There\'s something wonderful about having a fixed-size for your canvas and being able to play around with layouts that doesn\'t translate well to responsive design. But I think we just aren\'t being creative enough.',
   twitterImage: 'https://sambuilt.it/print-layout-header-bw.png',
   twitterImageAlt: 'Print Journalism Layouts Should Make a Comeback'

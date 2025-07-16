@@ -362,9 +362,9 @@
 <script setup lang="ts">
 // Set up dynamic meta tags for social sharing with Nuxt
 useSeoMeta({
-  title: 'Why I Still Write, Even When No One\'s Listening | Sam Daugherty',
+  title: 'Why I Still Write, Even When No One\'s Listening',
   description: 'Some people write because they need to get their thoughts out. See them more clearly from that 30,000-foot view. I would write for the sole purpose of hoping to one day monetize it. I was "grinding," because social media told me I needed that "hustle culture." There was a common platitude to "never do anything for free." And, well, it almost killed me.',
-  ogTitle: 'Why I Still Write, Even When No One\'s Listening | Sam Daugherty',
+  ogTitle: 'Why I Still Write, Even When No One\'s Listening',
   ogDescription: 'Some people write because they need to get their thoughts out. See them more clearly from that 30,000-foot view. I would write for the sole purpose of hoping to one day monetize it. I was "grinding," because social media told me I needed that "hustle culture." There was a common platitude to "never do anything for free." And, well, it almost killed me.',
   ogImage: 'https://sambuilt.it/writing-alone.png',
   ogUrl: 'https://sambuilt.it/writing/why-i-still-write',
@@ -372,7 +372,7 @@ useSeoMeta({
   ogSiteName: 'Sam Daugherty Portfolio',
   ogLocale: 'en_US',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Why I Still Write, Even When No One\'s Listening | Sam Daugherty',
+  twitterTitle: 'Why I Still Write, Even When No One\'s Listening',
   twitterDescription: 'Some people write because they need to get their thoughts out. See them more clearly from that 30,000-foot view. I would write for the sole purpose of hoping to one day monetize it. I was "grinding," because social media told me I needed that "hustle culture." There was a common platitude to "never do anything for free." And, well, it almost killed me.',
   twitterImage: 'https://sambuilt.it/writing-alone.png',
   twitterImageAlt: 'Why I Still Write, Even When No One\'s Listening'

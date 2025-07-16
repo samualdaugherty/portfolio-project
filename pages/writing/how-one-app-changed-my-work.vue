@@ -243,9 +243,9 @@
 // Set up dynamic meta tags for social sharing with Nuxt
 // @ts-ignore - useSeoMeta is auto-imported by Nuxt
 useSeoMeta({
-  title: 'How One App Changed the Way I Work (and Think) | Sam Daugherty',
+  title: 'How One App Changed the Way I Work (and Think)',
   description: 'Imagine this: you\'ve been at your job for 8 years and you\'re ready for a change. You dust off your old resume to update it, look at your portfolio website if you have one, and realize all of it is shit. What do you do?',
-  ogTitle: 'How One App Changed the Way I Work (and Think) | Sam Daugherty',
+  ogTitle: 'How One App Changed the Way I Work (and Think)',
   ogDescription: 'Imagine this: you\'ve been at your job for 8 years and you\'re ready for a change. You dust off your old resume to update it, look at your portfolio website if you have one, and realize all of it is shit. What do you do?',
   ogImage: 'https://sambuilt.it/day-one-header.png',
   ogUrl: 'https://sambuilt.it/writing/how-one-app-changed-my-work',
@@ -253,7 +253,7 @@ useSeoMeta({
   ogSiteName: 'Sam Daugherty Portfolio',
   ogLocale: 'en_US',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'How One App Changed the Way I Work (and Think) | Sam Daugherty',
+  twitterTitle: 'How One App Changed the Way I Work (and Think)',
   twitterDescription: 'Imagine this: you\'ve been at your job for 8 years and you\'re ready for a change. You dust off your old resume to update it, look at your portfolio website if you have one, and realize all of it is shit. What do you do?',
   twitterImage: 'https://sambuilt.it/day-one-header.png',
   twitterImageAlt: 'How One App Changed the Way I Work (and Think)'

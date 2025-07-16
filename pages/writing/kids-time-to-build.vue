@@ -268,9 +268,9 @@
 const { $config } = useNuxtApp()
 
 useSeoMeta({
-  title: 'Kids, It\'s Time to Build the Thing | Sam Daugherty',
+  title: 'Kids, It\'s Time to Build the Thing',
   description: 'I know. I know! All the posts about vibe coding are getting old and annoying, but I felt compelled to write one, because it\'s something that all Designers should attempt. Like, really try to take that idea you\'ve had brewing for years and try to build it. Because I did that, and it was shockingly easy.',
-  ogTitle: 'Kids, It\'s Time to Build the Thing | Sam Daugherty',
+  ogTitle: 'Kids, It\'s Time to Build the Thing',
   ogDescription: 'I know. I know! All the posts about vibe coding are getting old and annoying, but I felt compelled to write one, because it\'s something that all Designers should attempt. Like, really try to take that idea you\'ve had brewing for years and try to build it. Because I did that, and it was shockingly easy.',
   ogImage: 'https://sambuilt.it/eat-sleep-code.png',
   ogUrl: 'https://sambuilt.it/writing/kids-time-to-build',
@@ -278,7 +278,7 @@ useSeoMeta({
   ogSiteName: 'Sam Daugherty Portfolio',
   ogLocale: 'en_US',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Kids, It\'s Time to Build the Thing | Sam Daugherty',
+  twitterTitle: 'Kids, It\'s Time to Build the Thing',
   twitterDescription: 'I know. I know! All the posts about vibe coding are getting old and annoying, but I felt compelled to write one, because it\'s something that all Designers should attempt. Like, really try to take that idea you\'ve had brewing for years and try to build it. Because I did that, and it was shockingly easy.',
   twitterImage: 'https://sambuilt.it/eat-sleep-code.png',
   twitterImageAlt: 'Kids, It\'s Time to Build the Thing'

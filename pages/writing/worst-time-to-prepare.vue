@@ -317,9 +317,9 @@
 <script setup lang="ts">
 // Set up dynamic meta tags for social sharing with Nuxt
 useSeoMeta({
-  title: 'The Worst Time to Prepare for a Layoff Is After It Happens | Sam Daugherty',
+  title: 'The Worst Time to Prepare for a Layoff Is After It Happens',
   description: 'Layoffs don\'t seem to come with a warning, at least not in the U.S. Mine certainly didn\'t and I was left confused and bewildered after the call ended. Everything I\'m about to share with you, I learned the hard way.',
-  ogTitle: 'The Worst Time to Prepare for a Layoff Is After It Happens | Sam Daugherty',
+  ogTitle: 'The Worst Time to Prepare for a Layoff Is After It Happens',
   ogDescription: 'Layoffs don\'t seem to come with a warning, at least not in the U.S. Mine certainly didn\'t and I was left confused and bewildered after the call ended. Everything I\'m about to share with you, I learned the hard way.',
   ogImage: 'https://sambuilt.it/layoffs-happen-header.png',
   ogUrl: 'https://sambuilt.it/writing/worst-time-to-prepare',
@@ -327,7 +327,7 @@ useSeoMeta({
   ogSiteName: 'Sam Daugherty Portfolio',
   ogLocale: 'en_US',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'The Worst Time to Prepare for a Layoff Is After It Happens | Sam Daugherty',
+  twitterTitle: 'The Worst Time to Prepare for a Layoff Is After It Happens',
   twitterDescription: 'Layoffs don\'t seem to come with a warning, at least not in the U.S. Mine certainly didn\'t and I was left confused and bewildered after the call ended. Everything I\'m about to share with you, I learned the hard way.',
   twitterImage: 'https://sambuilt.it/layoffs-happen-header.png',
   twitterImageAlt: 'The Worst Time to Prepare for a Layoff Is After It Happens'

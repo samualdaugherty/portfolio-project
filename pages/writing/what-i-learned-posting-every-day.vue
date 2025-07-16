@@ -283,9 +283,9 @@
 <script setup lang="ts">
 // Set up dynamic meta tags for social sharing with Nuxt
 useSeoMeta({
-  title: 'What I Learned Posting Every Day for 90 Days | Sam Daugherty',
+  title: 'What I Learned Posting Every Day for 90 Days',
   description: 'I did it. I did what every guru on the internet says to do. I posted every day. I did it for 90 days straight, and made sure to engage with anyone who liked or commented on my posts. So what did I learn?',
-  ogTitle: 'What I Learned Posting Every Day for 90 Days | Sam Daugherty',
+  ogTitle: 'What I Learned Posting Every Day for 90 Days',
   ogDescription: 'I did it. I did what every guru on the internet says to do. I posted every day. I did it for 90 days straight, and made sure to engage with anyone who liked or commented on my posts. So what did I learn?',
   ogImage: 'https://sambuilt.it/good-enough-header.png',
   ogUrl: 'https://sambuilt.it/writing/what-i-learned-posting-every-day',
@@ -293,7 +293,7 @@ useSeoMeta({
   ogSiteName: 'Sam Daugherty Portfolio',
   ogLocale: 'en_US',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'What I Learned Posting Every Day for 90 Days | Sam Daugherty',
+  twitterTitle: 'What I Learned Posting Every Day for 90 Days',
   twitterDescription: 'I did it. I did what every guru on the internet says to do. I posted every day. I did it for 90 days straight, and made sure to engage with anyone who liked or commented on my posts. So what did I learn?',
   twitterImage: 'https://sambuilt.it/good-enough-header.png',
   twitterImageAlt: 'What I Learned Posting Every Day for 90 Days'

@@ -123,6 +123,30 @@
 </template>
 
 <script setup lang="ts">
+// Set up dynamic meta tags for social sharing with Nuxt
+useSeoMeta({
+  title: 'Sometimes, "Good Enough" Is Good Enough in Product Design',
+  description: 'I\'ve had a lot of conversations recently with designers feeling the conflicting pressures to "move faster," with their desire to make sure they get everything right, and "follow the process." But knowing when your process helps you, and when it hinders you, is sometimes a very blurry line.',
+  ogTitle: 'Sometimes, "Good Enough" Is Good Enough in Product Design',
+  ogDescription: 'I\'ve had a lot of conversations recently with designers feeling the conflicting pressures to "move faster," with their desire to make sure they get everything right, and "follow the process." But knowing when your process helps you, and when it hinders you, is sometimes a very blurry line.',
+  ogImage: 'https://sambuilt.it/good-enough-header.png',
+  ogUrl: 'https://sambuilt.it/writing/good-enough-design',
+  ogType: 'article',
+  ogSiteName: 'Sam Daugherty Portfolio',
+  ogLocale: 'en_US',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Sometimes, "Good Enough" Is Good Enough in Product Design',
+  twitterDescription: 'I\'ve had a lot of conversations recently with designers feeling the conflicting pressures to "move faster," with their desire to make sure they get everything right, and "follow the process." But knowing when your process helps you, and when it hinders you, is sometimes a very blurry line.',
+  twitterImage: 'https://sambuilt.it/good-enough-header.png',
+  twitterImageAlt: 'Sometimes, "Good Enough" Is Good Enough in Product Design'
+})
+
+useHead({
+  link: [
+    { rel: 'canonical', href: 'https://sambuilt.it/writing/good-enough-design' }
+  ]
+})
+
 // Social sharing functions
 const shareToFacebook = () => {
   const url = encodeURIComponent(window.location.href)

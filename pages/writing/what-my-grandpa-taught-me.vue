@@ -358,9 +358,9 @@
 <script setup lang="ts">
 // Set up dynamic meta tags for social sharing with Nuxt
 useSeoMeta({
-  title: 'What My Grandpa Taught Me About Hard Work and Happiness | Sam Daugherty',
+  title: 'What My Grandpa Taught Me About Hard Work and Happiness',
   description: 'Like most people, I spent a good deal of time trying to figure out what I wanted to do with my life. And, like most people, that usually meant choosing a job. Like that\'s what life is? Work? Even when we ask kids, "What do you want to do when you grow up?" we\'re really asking about careers. But is that all there is? Is that the meaning of life? Is that all we\'re destined to be? My grandpa didn\'t think so.',
-  ogTitle: 'What My Grandpa Taught Me About Hard Work and Happiness | Sam Daugherty',
+  ogTitle: 'What My Grandpa Taught Me About Hard Work and Happiness',
   ogDescription: 'Like most people, I spent a good deal of time trying to figure out what I wanted to do with my life. And, like most people, that usually meant choosing a job. Like that\'s what life is? Work? Even when we ask kids, "What do you want to do when you grow up?" we\'re really asking about careers. But is that all there is? Is that the meaning of life? Is that all we\'re destined to be? My grandpa didn\'t think so.',
   ogImage: 'https://sambuilt.it/grandpa-header.png',
   ogUrl: 'https://sambuilt.it/writing/what-my-grandpa-taught-me',
@@ -368,7 +368,7 @@ useSeoMeta({
   ogSiteName: 'Sam Daugherty Portfolio',
   ogLocale: 'en_US',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'What My Grandpa Taught Me About Hard Work and Happiness | Sam Daugherty',
+  twitterTitle: 'What My Grandpa Taught Me About Hard Work and Happiness',
   twitterDescription: 'Like most people, I spent a good deal of time trying to figure out what I wanted to do with my life. And, like most people, that usually meant choosing a job. Like that\'s what life is? Work? Even when we ask kids, "What do you want to do when you grow up?" we\'re really asking about careers. But is that all there is? Is that the meaning of life? Is that all we\'re destined to be? My grandpa didn\'t think so.',
   twitterImage: 'https://sambuilt.it/grandpa-header.png',
   twitterImageAlt: 'What My Grandpa Taught Me About Hard Work and Happiness'
