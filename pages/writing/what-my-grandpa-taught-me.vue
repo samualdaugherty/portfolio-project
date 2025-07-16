@@ -356,6 +356,14 @@
 </template>
 
 <script setup lang="ts">
+// Meta tags for SEO and social sharing
+useHead(generateBlogMeta({
+  title: 'What My Grandpa Taught Me About Hard Work and Happiness',
+  description: 'Like most people, I spent a good deal of time trying to figure out what I wanted to do with my life. And, like most people, that usually meant choosing a job. Like that\'s what life is? Work? Even when we ask kids, "What do you want to do when you grow up?" we\'re really asking about careers. But is that all there is? Is that the meaning of life? Is that all we\'re destined to be? My grandpa didn\'t think so.',
+  image: '/grandpa-header.png',
+  url: '/writing/what-my-grandpa-taught-me'
+}))
+
 // Social sharing functions
 const shareToFacebook = () => {
   const url = encodeURIComponent(window.location.href)
