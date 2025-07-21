@@ -37,7 +37,7 @@
     <LatestFlourish />
       
     <!-- Side-by-side Content -->
-    <div class="relative w-full flex flex-col lg:flex-row lg:items-center pl-0 z-20 pt-8 lg:pt-0 xl:-mt-12 max-w-[1200px]">
+    <div class="relative w-full flex flex-col lg:flex-row lg:items-center pl-0 z-20 pt-8 lg:pt-0 xl:mt-4 max-w-[1200px]">
       <!-- Text Content -->
       <div class="flex flex-col items-start w-full max-w-3xl lg:max-w-lg xl:max-w-xl z-10">
         <h2 class="font-alumni font-bold text-[3rem] text-black dark:text-white mb-2 leading-[.9]">{{ latestPost.title }}</h2>

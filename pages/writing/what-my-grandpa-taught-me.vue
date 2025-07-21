@@ -134,7 +134,7 @@
                 Meet Clarence
             </h2>
             <p class="font-lato text-body text-black dark:text-white leading-relaxed mt-2">
-                To understand the lesson, you need to meet my grandpa, Clarence. He wasn't a big man, but he didn't need to be. He was kind. Quiet. Thoughtful. The kind of person who listened more than he spoke. And always had time to hear your whatever story you had to tell him—something I've yet to master myself as a parent.
+                To understand the lesson, you need to meet my grandpa, Clarence. He wasn't a big man, but he didn't need to be. He was kind. Quiet. Thoughtful. The kind of person who listened more than he spoke. And always had time to hear whatever story you had to tell him—something I've yet to master myself as a parent.
 
             </p>
         </div>

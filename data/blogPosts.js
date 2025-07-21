@@ -2,6 +2,14 @@
 // When adding a new post, add it to the TOP of this array
 export const blogPosts = [
   {
+    id: 'i-finally-found-a-way-to-remember',
+    title: 'I Finally Found a Way to Remember All My Best Ideas',
+    excerpt: 'Picture this: you\'re in one of those meetings where the ideas are flowing. One idea sparks another, and before you know it, you\'ve solved all the world\'s problems. But then the call ends, and you realize… You didn\'t write any of it down. That moment of brilliance? Gone. Just like that. Shit.',
+    date: 'July 21st, 2025',
+    image: '/hidock-header.png',
+    route: '/writing/i-finally-found-a-way-to-remember-all-my-best-ideas'
+  },
+  {
     id: 'what-my-grandpa-taught-me',
     title: 'What My Grandpa Taught Me About Hard Work and Happiness',
     excerpt: 'Like most people, I spent a good deal of time trying to figure out what I wanted to do with my life. And, like most people, that usually meant choosing a job. But is that all there is? Is that the meaning of life? Is that all we\'re destined to be? My grandpa didn\'t think so.',
