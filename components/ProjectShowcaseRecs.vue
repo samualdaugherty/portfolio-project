@@ -1,7 +1,7 @@
 <template>
   <section class="relative flex flex-col items-start max-w-4xl mt-16 sm:mr-8 z-10 ml-0 md:ml-16 lg:ml-52">
     <!-- Project Name and Arrow Button -->
-    <div class="flex items-center pl-4 md:pl-[6rem] xl:pl-[8rem] w-full text-left justify-between sm:justify-start" data-aos="slide-up-blur-fast" data-aos-duration="600" data-aos-delay="100">
+    <div class="flex items-center pl-4 md:pl-[6rem] xl:pl-[8rem] w-full text-left justify-between sm:justify-start">
       <h2 class="font-alumni font-bold text-md-header sm:text-md-header-sm text-black dark:text-white mr-4 mb-[-8px]">
         <span class="sm:hidden">Better Recs</span>
         <span class="hidden sm:inline">Better Recommendations</span>
@@ -9,7 +9,7 @@
       <OnwardButton class="ml-2" to="/work/better-recommendations" />
     </div>
     <!-- Project Type -->
-    <div class="mb-2 sm:mb-8 w-full text-left pl-4 md:pl-[6rem] xl:pl-[8rem]" data-aos="slide-up-blur" data-aos-duration="600" data-aos-delay="200">
+    <div class="mb-2 sm:mb-8 w-full text-left pl-4 md:pl-[6rem] xl:pl-[8rem]">
       <span class="font-alumni font-bold text-sm-header sm:text-sm-header-sm text-accent">e-Commerce</span>
     </div>
     <!-- Screenshots with Rotated Label -->
@@ -19,7 +19,7 @@
         class="absolute top-[55%] left-[-54px] sm:left-[-84px] md:left-[-4px] xl:left-[12px] font-alumni font-bold text-md-header sm:text-md-header-sm text-black dark:text-white rotate-[-90deg] select-none pointer-events-none z-0"
       >New Feature</span>
       <!-- Screenshots -->
-      <div class="flex gap-2 md:gap-4 z-10" data-aos="slide-up-blur" data-aos-duration="800" data-aos-delay="300">
+      <div class="flex gap-2 md:gap-4 z-10">
         <img v-for="n in 2" :key="n" :src="`/Recs-${n}.png`" :alt="`Recommendations screenshot ${n}`" class="h-auto sm:h-[360px] w-[324px] sm:w-auto hero-drop-shadow rounded-2xl object-cover" />
       </div>
     </div>

@@ -1,15 +1,15 @@
 <template>
   <section class="w-full flex flex-col lg:flex-row justify-start items-left pt-16 sm:pt-24 z-10 pl-0 md:pl-4 mb-16 sm:mb-0 xl:pl-[10rem]">
     <div class="flex flex-col items-start w-full lg:w-auto">
-      <h1 class="font-alumni font-bold text-xl-header sm:text-xl-header-sm mb-8 text-left text-black dark:text-white" data-aos="slide-up-blur-fast" data-aos-duration="600" data-aos-delay="100">
+      <h1 class="font-alumni font-bold text-xl-header sm:text-xl-header-sm mb-8 text-left text-black dark:text-white">
         Hi There,<br />I'm Sam
       </h1>
-      <p class="font-lato font-light text-body-large text-left mb-8 max-w-3xl lg:max-w-lg text-black dark:text-white" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+      <p class="font-lato font-light text-body-large text-left mb-8 max-w-3xl lg:max-w-lg text-black dark:text-white">
         I am an experienced Product Designer based out of Peoria, IL, USA, with almost a decade of experience leading teams in the world of Insurance, FinTech, and e&#8209;Commerce.<br /><br />
         If you're a Hiring Manager, <router-link to="/tldr" class="font-bold no-underline text-black dark:text-white hover:text-accent">click here for the tl;dr.</router-link>
       </p>
     </div>
-    <div class="ml-0 mt-0 sm:mt-8 lg:ml-6 lg:mt-0 flex items-center w-full lg:w-auto max-w-2xl" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+    <div class="ml-0 mt-0 sm:mt-8 lg:ml-6 lg:mt-0 flex items-center w-full lg:w-auto max-w-2xl">
       <img 
         :src="isLargeScreen ? '/Portrait.webp' : '/Portrait-landscape.webp'" 
         alt="Samual Portrait" 

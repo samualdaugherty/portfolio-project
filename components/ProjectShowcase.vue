@@ -3,7 +3,7 @@
     <!-- Left Orange Bar -->
     <img src="/New-Block.svg" alt="Bio Bar" class="absolute left-0 -top-12 w-[125px] lg:w-[175px] h-[auto] z-[-1] translate-y-[-225px] lg:translate-y-[-175px] -ml-20 lg:-ml-52 hidden md:block" />
     <!-- Project Name and Arrow Button -->
-    <div class="flex items-center pl-4 md:pl-[6rem] xl:pl-[8rem] w-full text-left justify-between sm:justify-start" data-aos="slide-up-blur-fast" data-aos-duration="600" data-aos-delay="100">
+    <div class="flex items-center pl-4 md:pl-[6rem] xl:pl-[8rem] w-full text-left justify-between sm:justify-start">
       <h2 class="font-alumni font-bold text-md-header sm:text-md-header-sm text-black dark:text-white mr-4 mb-[-8px]">
         <span class="sm:hidden">Blueprint Banking App</span>
         <span class="hidden sm:inline">Blueprint Mobile Banking App</span>
@@ -11,7 +11,7 @@
       <OnwardButton class="ml-2" to="/work/blueprint-mobile-banking-app" />
     </div>
     <!-- Project Type -->
-    <div class="mb-2 sm:mb-8 w-full text-left pl-4 md:pl-[6rem] xl:pl-[8rem]" data-aos="slide-up-blur" data-aos-duration="600" data-aos-delay="200">
+    <div class="mb-2 sm:mb-8 w-full text-left pl-4 md:pl-[6rem] xl:pl-[8rem]">
       <span class="font-alumni font-bold text-sm-header sm:text-sm-header-sm text-accent">Native iOS App</span>
     </div>
     <!-- Screenshots with Rotated Label -->
@@ -21,7 +21,7 @@
         class="absolute left-[-68px] sm:left-[-98px] md:left-[-20px] xl:left-[12px] top-[55%] font-alumni font-bold text-md-header sm:text-md-header-sm text-black dark:text-white rotate-[-90deg] select-none pointer-events-none z-0"
       >Original Design</span>
       <!-- Screenshots -->
-      <div class="flex gap-2 md:gap-4 z-10" data-aos="slide-up-blur" data-aos-duration="800" data-aos-delay="300">
+      <div class="flex gap-2 md:gap-4 z-10">
         <img v-for="n in 4" :key="n" :src="`/blueprint-${n}.png`" :alt="`Blueprint screenshot ${n}`" class="w-[144px] sm:w-[180px] h-auto hero-drop-shadow rounded-2xl" />
       </div>
     </div>

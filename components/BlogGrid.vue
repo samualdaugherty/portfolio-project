@@ -4,9 +4,6 @@
       v-for="(post, index) in posts" 
       :key="post.id"
       class="blog-card flex flex-col"
-      :data-aos="'card-slide'"
-      :data-aos-delay="index * 100"
-      data-aos-duration="800"
     >
       <!-- Image -->
       <div class="mb-4">
