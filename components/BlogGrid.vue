@@ -1,9 +1,12 @@
 <template>
   <div class="blog-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1200px]">
     <article 
-      v-for="post in posts" 
+      v-for="(post, index) in posts" 
       :key="post.id"
       class="blog-card flex flex-col"
+      :data-aos="'card-slide'"
+      :data-aos-delay="index * 100"
+      data-aos-duration="800"
     >
       <!-- Image -->
       <div class="mb-4">

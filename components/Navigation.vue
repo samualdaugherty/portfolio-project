@@ -1,12 +1,12 @@
 <template>
-  <nav class="w-full relative z-50">
+  <nav class="w-full relative z-50" data-aos="nav-slide" data-aos-duration="600" data-aos-delay="100">
     <div class="w-full max-w-[1600px] flex justify-between items-end pl-4 md:pl-8 pr-4 md:pr-8">
-      <router-link to="/" class="flex items-center">
+      <router-link to="/" class="flex items-center" data-aos="slide-up-blur-fast" data-aos-duration="500" data-aos-delay="200">
         <img :src="isDarkMode ? '/nav-logo-dark.png' : '/nav-logo-light.png'" alt="Logo" class="w-[176px] h-auto" />
       </router-link>
       
       <!-- Desktop Navigation (MD and up) -->
-      <div class="hidden md:flex items-center gap-8 mb-1">
+      <div class="hidden md:flex items-center gap-8 mb-1" data-aos="slide-up-blur-fast" data-aos-duration="500" data-aos-delay="300">
         <router-link to="/about" custom v-slot="{ isActive, href, navigate }">
           <a :href="href" @click="navigate" class="relative font-alumni font-bold text-nav-link text-black dark:text-white hover:text-black dark:hover:text-white">
             <span v-if="isActive" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
@@ -90,7 +90,7 @@
       </div>
 
       <!-- Mobile Navigation (SM and below) -->
-      <div class="flex md:hidden items-center gap-4 mb-1">
+      <div class="flex md:hidden items-center gap-4 mb-1" data-aos="slide-up-blur-fast" data-aos-duration="500" data-aos-delay="300">
         <!-- Dark Mode Toggle -->
         <button
           class="w-9 h-9 relative theme-toggle group focus:outline-none focus-visible:outline-none outline-none ring-0"

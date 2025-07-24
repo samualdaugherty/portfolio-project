@@ -1,5 +1,5 @@
 <template>
-  <section class="relative flex flex-col items-start max-w-4xl mt-16 sm:mr-8 ml-0 md:ml-16 lg:ml-52">
+  <section class="relative flex flex-col items-start max-w-4xl mt-16 sm:mr-8 ml-0 md:ml-16 lg:ml-52" data-aos="slide-up-blur" data-aos-duration="800" data-aos-delay="200">
     <!-- Left Orange Bar -->
     <img src="/New-Block.svg" alt="Bio Bar" class="absolute left-0 -top-12 w-[125px] lg:w-[175px] h-[auto] z-[-1] translate-y-[-225px] lg:translate-y-[-175px] -ml-20 lg:-ml-52 hidden md:block" />
     <!-- Project Name and Arrow Button -->

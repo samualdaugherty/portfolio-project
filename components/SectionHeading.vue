@@ -1,5 +1,5 @@
 <template>
-  <div :class="['relative w-full z-10', align === 'right' ? 'pr-4 sm:pr-8' : (align === 'justified' ? 'px-0' : 'pl-0 md:pl-8'), noPadding ? '' : 'md:pt-8 lg:pt-8']">
+  <div :class="['relative w-full z-10', align === 'right' ? 'pr-4 sm:pr-8' : (align === 'justified' ? 'px-0' : 'pl-0 md:pl-8'), noPadding ? '' : 'md:pt-8 lg:pt-8']" data-aos="slide-up-blur-fast" data-aos-duration="600" data-aos-delay="100">
     <!-- Outlined Background Text -->
     <svg
       class="absolute z-0 select-none pointer-events-none"

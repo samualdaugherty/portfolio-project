@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Import custom AOS animations */
+@import './aos-custom.css';
+
 @layer utilities {
   .hero-drop-shadow {
     filter: drop-shadow(15.999px 32.249px 75px rgba(0,0,0,0.15))
