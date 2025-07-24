@@ -4,12 +4,12 @@
       <h1 class="font-alumni font-bold text-xl-header sm:text-xl-header-sm mb-8 text-left text-black dark:text-white" data-aos="slide-up-blur-fast" data-aos-duration="600" data-aos-delay="100">
         Hi There,<br />I'm Sam
       </h1>
-      <p class="font-lato font-light text-body-large text-left mb-8 max-w-3xl lg:max-w-lg text-black dark:text-white" data-aos="slide-up-blur" data-aos-duration="800" data-aos-delay="300">
+      <p class="font-lato font-light text-body-large text-left mb-8 max-w-3xl lg:max-w-lg text-black dark:text-white" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
         I am an experienced Product Designer based out of Peoria, IL, USA, with almost a decade of experience leading teams in the world of Insurance, FinTech, and e&#8209;Commerce.<br /><br />
         If you're a Hiring Manager, <router-link to="/tldr" class="font-bold no-underline text-black dark:text-white hover:text-accent">click here for the tl;dr.</router-link>
       </p>
     </div>
-    <div class="ml-0 mt-0 sm:mt-8 lg:ml-6 lg:mt-0 flex items-center w-full lg:w-auto max-w-2xl" data-aos="image-zoom" data-aos-duration="800" data-aos-delay="500">
+    <div class="ml-0 mt-0 sm:mt-8 lg:ml-6 lg:mt-0 flex items-center w-full lg:w-auto max-w-2xl" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
       <img 
         :src="isLargeScreen ? '/Portrait.webp' : '/Portrait-landscape.webp'" 
         alt="Samual Portrait" 

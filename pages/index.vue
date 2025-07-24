@@ -1,5 +1,6 @@
 <template>
   <div class="w-full max-w-[1600px] pl-4 lg:pl-8 pr-4 lg:pr-8">
+
     <HeroSection />
     <div class="w-full max-w-[1000px] mr-8 lg:pr-0 mt-8">
       <SectionHeading

@@ -1,5 +1,5 @@
 <template>
-  <div :class="['relative w-full z-10', align === 'right' ? 'pr-4 sm:pr-8' : (align === 'justified' ? 'px-0' : 'pl-0 md:pl-8'), noPadding ? '' : 'md:pt-8 lg:pt-8']" data-aos="slide-up-blur-fast" data-aos-duration="600" data-aos-delay="100">
+  <div :class="['relative w-full z-10', align === 'right' ? 'pr-4 sm:pr-8' : (align === 'justified' ? 'px-0' : 'pl-0 md:pl-8'), noPadding ? '' : 'md:pt-8 lg:pt-8']">
     <!-- Outlined Background Text -->
     <svg
       class="absolute z-0 select-none pointer-events-none"
@@ -10,6 +10,9 @@
       ]"
       :width="bgTextWidth"
       :height="bgTextHeight"
+      data-aos="slide-down-blur"
+      data-aos-duration="800"
+      data-aos-delay="50"
       :style="align === 'right' 
         ? 'overflow: visible; --tw-translate-y: -24%; transform: translate(var(--tw-translate-x), var(--tw-translate-y));'
         : (align === 'justified' 
@@ -33,7 +36,7 @@
     </svg>
 
     <!-- Main Heading Content -->
-    <div :class="['flex items-center w-full relative z-10', align === 'right' ? 'justify-end' : (align === 'justified' ? 'justify-between' : 'sm:ml-2 md:ml-4')]">
+    <div :class="['flex items-center w-full relative z-10', align === 'right' ? 'justify-end' : (align === 'justified' ? 'justify-between' : 'sm:ml-2 md:ml-4')]" data-aos="slide-up-blur-fast" data-aos-duration="600" data-aos-delay="100">
       <template v-if="align === 'right'">
         <!-- Right-aligned: MainText > Line > SmallText -->
         <span class="font-alumni font-bold text-[2.5rem] sm:text-[4rem] lg:text-lg-header text-black dark:text-white section-shadow relative mr-2 md:mr-4 flex-shrink-0">

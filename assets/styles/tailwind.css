@@ -1,9 +1,9 @@
+/* Import custom AOS animations */
+@import './aos-custom.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Import custom AOS animations */
-@import './aos-custom.css';
 
 @layer utilities {
   .hero-drop-shadow {

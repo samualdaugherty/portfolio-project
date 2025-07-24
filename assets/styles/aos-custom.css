@@ -46,6 +46,19 @@
   opacity: 1;
 }
 
+/* Background text slide down animation */
+[data-aos="slide-down-blur"] {
+  transform: translateY(-40px) scale(0.98);
+  filter: blur(3px);
+  opacity: 0.6;
+}
+
+[data-aos="slide-down-blur"].aos-animate {
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+  opacity: 0.25;
+}
+
 /* Image zoom effect */
 [data-aos="image-zoom"] {
   transform: scale(0.95);
