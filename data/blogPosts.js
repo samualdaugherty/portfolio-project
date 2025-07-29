@@ -2,6 +2,14 @@
 // When adding a new post, add it to the TOP of this array
 export const blogPosts = [
   {
+    id: 'i-say-i-dont-care-but-im-lying',
+    title: 'I Say I Don\’t Care, But I\’m Lying',
+    excerpt: '“You should probably stop saying that.” That was the advice my boss gave me during our project meeting when, for the third time, I said, “I don\’t really care.” He didn\’t mean I was being flippant. He said it because he knows I actually do care. And he\’s right. So, why do I constantly say it? Let me explain. ',
+    date: 'July 29th, 2025',
+    image: '/dont-care-header.png',
+    route: '/writing/i-say-i-dont-care-but-im-lying'
+  },
+  {
     id: 'i-finally-found-a-way-to-remember',
     title: 'I Finally Found a Way to Remember All My Best Ideas',
     excerpt: 'Picture this: you\'re in one of those meetings where the ideas are flowing. One idea sparks another, and before you know it, you\'ve solved all the world\'s problems. But then the call ends, and you realize… You didn\'t write any of it down. That moment of brilliance? Gone. Just like that. Shit.',
