@@ -2,9 +2,17 @@
 // When adding a new post, add it to the TOP of this array
 export const blogPosts = [
   {
+    id: 'how-api-makes-me-a-better-communicator-and-partner',
+    title: 'How "API" Makes Me a Better Communicator and Partner',
+    excerpt: 'This might surprise none of you, but I\'m a rather anxious person. If I allow myself to dwell on things, I\'ll just assume everyone is mad at me and thinks I\'m terrible. So, if we want to survive this world we\'re forced to exist in, it helps to have the right tools. And a random conversation with my brother taught me the simplest tool of them all. It\'s how I\'ve survived long enough to tell you about it.',
+    date: 'August 4th, 2025',
+    image: '/better-communicator-header.png',
+    route: '/writing/how-api-makes-me-a-better-communicator-and-partner'
+  },
+  {
     id: 'i-say-i-dont-care-but-im-lying',
-    title: 'I Say I Don\’t Care, But I\’m Lying',
-    excerpt: '“You should probably stop saying that.” That was the advice my boss gave me during our project meeting when, for the third time, I said, “I don\’t really care.” He didn\’t mean I was being flippant. He said it because he knows I actually do care. And he\’s right. So, why do I constantly say it? Let me explain. ',
+    title: 'I Say I Don\'t Care, But I\'m Lying',
+    excerpt: '“You should probably stop saying that.” That was the advice my boss gave me during our project meeting when, for the third time, I said, “I don\'t really care.” He didn\'t mean I was being flippant. He said it because he knows I actually do care. And he\'s right. So, why do I constantly say it? Let me explain.',
     date: 'July 29th, 2025',
     image: '/dont-care-header.png',
     route: '/writing/i-say-i-dont-care-but-im-lying'
@@ -64,30 +72,6 @@ export const blogPosts = [
     date: 'May 7th, 2025',
     image: '/day-one-header.png',
     route: '/writing/how-one-app-changed-my-work'
-  },
-  {
-    id: 'blog-post-7',
-    title: '[Blog Title 7]',
-    excerpt: '[Blog excerpt text for the seventh post. This will also appear in the second 3-column section.]',
-    date: 'May 9th, 2025',
-    image: '/good-enough-header.png',
-    route: '/writing/blog-post-7'
-  },
-  {
-    id: 'blog-post-8',
-    title: '[Blog Title 8]',
-    excerpt: '[Blog excerpt text for the eighth post. This completes the second 3-column section.]',
-    date: 'May 2nd, 2025',
-    image: '/good-enough-header.png',
-    route: '/writing/blog-post-8'
-  },
-  {
-    id: 'blog-post-9',
-    title: '[Blog Title 9]',
-    excerpt: '[Blog excerpt text for the ninth and oldest blog post in the current rotation.]',
-    date: 'April 25th, 2025',
-    image: '/good-enough-header.png',
-    route: '/writing/blog-post-9'
   }
 ]
 
@@ -106,6 +90,6 @@ export const getLatestPost = () => blogPosts[0]
 export const getPreviousPost = () => blogPosts[1]
 export const getFirstColumnPosts = () => blogPosts.slice(2, 5) // Posts 3, 4, 5
 export const getSecondColumnPosts = () => blogPosts.slice(5, 8) // Posts 6, 7, 8
-export const getRemainingPosts = () => blogPosts.slice(2, 8).filter(post => !post.id.startsWith('blog-post-')) // Posts 3-8 for unified grid, excluding placeholder posts
-export const getOldestPost = () => blogPosts[8] // Post 9 (if you need it separately)
+export const getRemainingPosts = () => blogPosts.slice(2).filter(post => !post.id.startsWith('blog-post-')) // Posts 3+ for unified grid, excluding placeholder posts
+export const getOldestPost = () => blogPosts[blogPosts.length - 1] // Last post in array
 export const getEvergreenPost = () => evergreenPost 
