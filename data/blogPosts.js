@@ -2,6 +2,14 @@
 // When adding a new post, add it to the TOP of this array
 export const blogPosts = [
   {
+    id: 'i-tested-ai-and-all-i-got-was-this-existential-crisis',
+    title: 'I Tested AI, and All I Got Was an Existential Crisis',
+    excerpt: 'I\'ve grown to love AI. At first, it felt like a necessity: “I\'d better learn this before it takes my job.” But then I realized that I can do so much more with it, and my use of AI over the last six months has increased exponentially as a result. Every new experiment or test sparks a flood of ideas. And it\'s truly magical. But, every time I write a prompt, I know I\'m destroying entire communities… and the planet. And I don\'t like the way it makes me feel.',
+    date: 'August 21st, 2025',
+    image: '/existential-crisis-header.png',
+    route: '/writing/i-tested-ai-and-all-i-got-was-this-existential-crisis'
+  },
+  {
     id: 'how-api-makes-me-a-better-communicator-and-partner',
     title: 'How "API" Makes Me a Better Communicator and Partner',
     excerpt: 'This might surprise none of you, but I\'m a rather anxious person. If I allow myself to dwell on things, I\'ll just assume everyone is mad at me and thinks I\'m terrible. So, if we want to survive this world we\'re forced to exist in, it helps to have the right tools. And a random conversation with my brother taught me the simplest tool of them all. It\'s how I\'ve survived long enough to tell you about it.',
