@@ -5,35 +5,43 @@
         <img :src="isDarkMode ? '/nav-logo-dark.png' : '/nav-logo-light.png'" alt="Logo" class="w-[176px] h-auto" />
       </router-link>
       
-      <!-- Desktop Navigation (MD and up) -->
-      <div class="hidden md:flex items-center gap-8 mb-1">
-        <router-link to="/about" custom v-slot="{ isActive, href, navigate }">
+      <!-- Desktop Navigation (LG and up) -->
+      <div class="hidden lg:flex items-center gap-8 mb-1">
+        <router-link to="/about" custom v-slot="{ href, navigate }">
           <a :href="href" @click="navigate" class="relative font-alumni font-bold text-nav-link text-black dark:text-white hover:text-black dark:hover:text-white">
-            <span v-if="isActive" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
+            <span v-if="route.path === '/about'" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
               <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
             </span>
             <span class="relative z-10">ABOUT</span>
           </a>
         </router-link>
-        <router-link to="/work" custom v-slot="{ isActive, href, navigate }">
+        <router-link to="/work" custom v-slot="{ href, navigate }">
           <a :href="href" @click="navigate" class="relative font-alumni font-bold text-nav-link text-black dark:text-white hover:text-black dark:hover:text-white">
-            <span v-if="isActive" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
+            <span v-if="isSectionActive('/work')" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
               <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
             </span>
             <span class="relative z-10">WORK</span>
           </a>
         </router-link>
-        <router-link to="/writing" custom v-slot="{ isActive, href, navigate }">
+        <router-link to="/ai-lab" custom v-slot="{ href, navigate }">
           <a :href="href" @click="navigate" class="relative font-alumni font-bold text-nav-link text-black dark:text-white hover:text-black dark:hover:text-white">
-            <span v-if="isActive" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
+            <span v-if="isSectionActive('/ai-lab')" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
+              <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
+            </span>
+            <span class="relative z-10">A<span class="text-accent">i</span> LAB</span>
+          </a>
+        </router-link>
+        <router-link to="/writing" custom v-slot="{ href, navigate }">
+          <a :href="href" @click="navigate" class="relative font-alumni font-bold text-nav-link text-black dark:text-white hover:text-black dark:hover:text-white">
+            <span v-if="isSectionActive('/writing')" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
               <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
             </span>
             <span class="relative z-10">WRITING</span>
           </a>
         </router-link>
-        <router-link to="/contact" custom v-slot="{ isActive, href, navigate }">
+        <router-link to="/contact" custom v-slot="{ href, navigate }">
           <a :href="href" @click="navigate" class="relative font-alumni font-bold text-nav-link text-black dark:text-white hover:text-black dark:hover:text-white">
-            <span v-if="isActive" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
+            <span v-if="route.path === '/contact'" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[0]" style="width:135%;height:140%;display:block;">
               <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
             </span>
             <span class="relative z-10">CONTACT</span>
@@ -45,20 +53,20 @@
           @click="toggleTheme"
         >
           <!-- Light Mode SVGs -->
-          <span v-if="!isDarkMode" class="absolute inset-0 transition-opacity duration-800 group-hover:opacity-0">
+          <span v-if="!isDarkMode" class="absolute inset-0 transition-opacity duration-300 ease-out group-hover:opacity-0">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="#F32929"/>
               <path fill-rule="evenodd" clip-rule="evenodd" d="M30.121 26.838C27.9066 28.2088 25.2957 29 22.5 29C14.4919 29 8 22.5081 8 14.5C8 10.4046 9.69784 6.70577 12.428 4.06897C6.90277 6.2809 3 11.6847 3 18C3 26.2842 9.71573 33 18 33C22.9798 33 27.3928 30.5733 30.121 26.838Z" fill="#100417"/>
             </svg>
           </span>
-          <span v-if="!isDarkMode" class="absolute inset-0 opacity-0 transition-opacity duration-800 group-hover:opacity-100">
+          <span v-if="!isDarkMode" class="absolute inset-0 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="#F32929"/>
               <path fill-rule="evenodd" clip-rule="evenodd" d="M12.9999 29C21.2841 29 27.9999 22.2843 27.9999 14C27.9999 10.4186 26.7447 7.13029 24.6503 4.55106C29.5982 7.00243 33 12.1039 33 18C33 26.2843 26.2843 33 18 33C13.2972 33 9.09983 30.8358 6.34961 27.4489C8.35379 28.4419 10.6117 29 12.9999 29Z" fill="#F32929"/>
             </svg>
           </span>
           <!-- Dark Mode SVGs -->
-          <span v-if="isDarkMode" class="absolute inset-0 transition-opacity duration-800 group-hover:opacity-0">
+          <span v-if="isDarkMode" class="absolute inset-0 transition-opacity duration-300 ease-out group-hover:opacity-0">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="#F32929"/>
               <circle cx="18" cy="18" r="6" fill="#F7F4F3"/>
@@ -72,7 +80,7 @@
               <rect x="13.7573" y="12.3431" width="2" height="5.99883" rx="1" transform="rotate(135 13.7573 12.3431)" fill="#F7F4F3"/>
             </svg>
           </span>
-          <span v-if="isDarkMode" class="absolute inset-0 opacity-0 transition-opacity duration-800 group-hover:opacity-100">
+          <span v-if="isDarkMode" class="absolute inset-0 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="#F32929"/>
               <circle cx="18" cy="18" r="6" fill="#F32929"/>
@@ -89,8 +97,8 @@
         </button>
       </div>
 
-      <!-- Mobile Navigation (SM and below) -->
-      <div class="flex md:hidden items-center gap-4 mb-1">
+      <!-- Mobile Navigation (MD and below) -->
+      <div class="flex lg:hidden items-center gap-4 mb-1">
         <!-- Dark Mode Toggle -->
         <button
           class="w-9 h-9 relative theme-toggle group focus:outline-none focus-visible:outline-none outline-none ring-0"
@@ -98,20 +106,20 @@
           @click="toggleTheme"
         >
           <!-- Light Mode SVGs -->
-          <span v-if="!isDarkMode" class="absolute inset-0 transition-opacity duration-800 group-hover:opacity-0">
+          <span v-if="!isDarkMode" class="absolute inset-0 transition-opacity duration-300 ease-out group-hover:opacity-0">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="#F32929"/>
               <path fill-rule="evenodd" clip-rule="evenodd" d="M30.121 26.838C27.9066 28.2088 25.2957 29 22.5 29C14.4919 29 8 22.5081 8 14.5C8 10.4046 9.69784 6.70577 12.428 4.06897C6.90277 6.2809 3 11.6847 3 18C3 26.2842 9.71573 33 18 33C22.9798 33 27.3928 30.5733 30.121 26.838Z" fill="#100417"/>
             </svg>
           </span>
-          <span v-if="!isDarkMode" class="absolute inset-0 opacity-0 transition-opacity duration-800 group-hover:opacity-100">
+          <span v-if="!isDarkMode" class="absolute inset-0 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="#F32929"/>
               <path fill-rule="evenodd" clip-rule="evenodd" d="M12.9999 29C21.2841 29 27.9999 22.2843 27.9999 14C27.9999 10.4186 26.7447 7.13029 24.6503 4.55106C29.5982 7.00243 33 12.1039 33 18C33 26.2843 26.2843 33 18 33C13.2972 33 9.09983 30.8358 6.34961 27.4489C8.35379 28.4419 10.6117 29 12.9999 29Z" fill="#F32929"/>
             </svg>
           </span>
           <!-- Dark Mode SVGs -->
-          <span v-if="isDarkMode" class="absolute inset-0 transition-opacity duration-800 group-hover:opacity-0">
+          <span v-if="isDarkMode" class="absolute inset-0 transition-opacity duration-300 ease-out group-hover:opacity-0">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="#F32929"/>
               <circle cx="18" cy="18" r="6" fill="#F7F4F3"/>
@@ -125,7 +133,7 @@
               <rect x="13.7573" y="12.3431" width="2" height="5.99883" rx="1" transform="rotate(135 13.7573 12.3431)" fill="#F7F4F3"/>
             </svg>
           </span>
-          <span v-if="isDarkMode" class="absolute inset-0 opacity-0 transition-opacity duration-800 group-hover:opacity-100">
+          <span v-if="isDarkMode" class="absolute inset-0 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
               <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="#F32929"/>
               <circle cx="18" cy="18" r="6" fill="#F32929"/>
@@ -169,7 +177,7 @@
     >
       <div 
         v-if="isMobileMenuOpen" 
-        class="fixed inset-0 z-40 md:hidden bg-white dark:bg-black transition-colors duration-300"
+        class="fixed inset-0 z-40 lg:hidden bg-white dark:bg-black transition-colors duration-300"
       >
         <!-- Logo in mobile menu -->
         <div class="absolute top-0 left-8 z-50">
@@ -198,7 +206,7 @@
           <router-link 
             to="/about" 
             custom 
-            v-slot="{ isActive, href, navigate }"
+            v-slot="{ href, navigate }"
             @click="closeMobileMenu"
           >
             <a 
@@ -206,7 +214,7 @@
               @click="navigate" 
               class="relative font-alumni font-bold py-4 mobile-nav-link text-black dark:text-white"
             >
-              <span v-if="isActive" class="absolute -left-6 -top-2 z-[0]" style="width:18rem;height:8rem;display:block;">
+              <span v-if="route.path === '/about'" class="absolute -left-6 -top-2 z-[0]" style="width:18rem;height:8rem;display:block;">
                 <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
               </span>
               <span class="relative z-10">ABOUT</span>
@@ -216,7 +224,7 @@
           <router-link 
             to="/work" 
             custom 
-            v-slot="{ isActive, href, navigate }"
+            v-slot="{ href, navigate }"
             @click="closeMobileMenu"
           >
             <a 
@@ -224,7 +232,7 @@
               @click="navigate" 
               class="relative font-alumni font-bold py-4 mobile-nav-link text-black dark:text-white"
             >
-              <span v-if="isActive" class="absolute -left-6 -top-2 z-[0]" style="width:18rem;height:8rem;display:block;">
+              <span v-if="isSectionActive('/work')" class="absolute -left-6 -top-2 z-[0]" style="width:18rem;height:8rem;display:block;">
                 <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
               </span>
               <span class="relative z-10">WORK</span>
@@ -232,9 +240,9 @@
           </router-link>
           
           <router-link 
-            to="/writing" 
+            to="/ai-lab" 
             custom 
-            v-slot="{ isActive, href, navigate }"
+            v-slot="{ href, navigate }"
             @click="closeMobileMenu"
           >
             <a 
@@ -242,7 +250,25 @@
               @click="navigate" 
               class="relative font-alumni font-bold py-4 mobile-nav-link text-black dark:text-white"
             >
-              <span v-if="isActive" class="absolute -left-6 -top-2 z-[0]" style="width:22rem;height:8rem;display:block;">
+              <span v-if="isSectionActive('/ai-lab')" class="absolute -left-6 -top-2 z-[0]" style="width:18rem;height:8rem;display:block;">
+                <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
+              </span>
+              <span class="relative z-10">A<span class="text-accent">i</span> LAB</span>
+            </a>
+          </router-link>
+          
+          <router-link 
+            to="/writing" 
+            custom 
+            v-slot="{ href, navigate }"
+            @click="closeMobileMenu"
+          >
+            <a 
+              :href="href" 
+              @click="navigate" 
+              class="relative font-alumni font-bold py-4 mobile-nav-link text-black dark:text-white"
+            >
+              <span v-if="isSectionActive('/writing')" class="absolute -left-6 -top-2 z-[0]" style="width:22rem;height:8rem;display:block;">
                 <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
               </span>
               <span class="relative z-10">WRITING</span>
@@ -252,7 +278,7 @@
           <router-link 
             to="/contact" 
             custom 
-            v-slot="{ isActive, href, navigate }"
+            v-slot="{ href, navigate }"
             @click="closeMobileMenu"
           >
             <a 
@@ -260,7 +286,7 @@
               @click="navigate" 
               class="relative font-alumni font-bold py-4 mobile-nav-link text-black dark:text-white"
             >
-              <span v-if="isActive" class="absolute -left-6 -top-2 z-[0]" style="width:22rem;height:8rem;display:block;">
+              <span v-if="route.path === '/contact'" class="absolute -left-6 -top-2 z-[0]" style="width:22rem;height:8rem;display:block;">
                 <img src="/nav-circle.svg" alt="active" class="w-full h-full" />
               </span>
               <span class="relative z-10">CONTACT</span>
@@ -274,8 +300,10 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
 import { useTheme } from '../composables/useTheme'
 
+const route = useRoute()
 const isMobileMenuOpen = ref(false)
 const { isDarkMode, toggleTheme } = useTheme()
 
@@ -285,6 +313,10 @@ function toggleMobileMenu() {
 
 function closeMobileMenu() {
   isMobileMenuOpen.value = false
+}
+
+function isSectionActive(prefix: string) {
+  return route.path === prefix || route.path.startsWith(`${prefix}/`)
 }
 </script>
 

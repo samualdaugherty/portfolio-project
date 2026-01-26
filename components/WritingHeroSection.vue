@@ -40,7 +40,11 @@
     <div class="relative w-full flex flex-col lg:flex-row lg:items-center pl-0 z-20 pt-8 lg:pt-0 xl:mt-4 max-w-[1200px]">
       <!-- Text Content -->
       <div class="flex flex-col items-start w-full max-w-3xl lg:max-w-lg xl:max-w-xl z-10">
-        <h2 class="font-alumni font-bold text-[3rem] text-black dark:text-white mb-2 leading-[.9]">{{ latestPost.title }}</h2>
+        <h2 class="font-alumni font-bold text-[3rem] text-black dark:text-white mb-2 leading-[.9]">
+          <router-link :to="latestPost.route" class="hover:underline hover:decoration-accent decoration-accent underline-offset-4">
+            {{ latestPost.title }}
+          </router-link>
+        </h2>
         <p class="font-lato font-light text-body text-left text-black dark:text-white">
           {{ latestPost.excerpt }}
         </p>
@@ -53,11 +57,13 @@
 
       <!-- Writing Image -->
       <div class="ml-0 mt-8 lg:ml-6 lg:mt-0 flex items-start w-full lg:w-auto lg:max-w-2xl">
-        <img 
-          :src="latestPost.image" 
-          :alt="latestPost.title" 
-          class="w-full lg:w-[560px] h-auto hero-drop-shadow rounded-lg" 
-        />
+        <router-link :to="latestPost.route" class="block w-full">
+          <img 
+            :src="latestPost.image" 
+            :alt="latestPost.title" 
+            class="w-full lg:w-[560px] h-auto hero-drop-shadow rounded-lg" 
+          />
+        </router-link>
       </div>
     </div>
   </section>

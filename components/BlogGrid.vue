@@ -7,18 +7,22 @@
     >
       <!-- Image -->
       <div class="mb-4">
-        <img 
-          :src="post.image" 
-          :alt="post.title"
-          class="w-full h-48 object-cover hero-drop-shadow"
-        />
+        <router-link :to="post.route" class="block">
+          <img 
+            :src="post.image" 
+            :alt="post.title"
+            class="w-full h-48 object-cover hero-drop-shadow"
+          />
+        </router-link>
       </div>
       
       <!-- Content -->
       <div class="flex flex-col flex-grow">
         <!-- Title -->
         <h3 class="font-alumni font-bold text-[2rem] text-black dark:text-white mb-2 leading-[.9]">
-          {{ post.title }}
+          <router-link :to="post.route" class="hover:underline hover:decoration-accent decoration-accent underline-offset-4">
+            {{ post.title }}
+          </router-link>
         </h3>
         
         <!-- Excerpt -->

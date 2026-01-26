@@ -24,16 +24,22 @@
         
         <!-- Image Content (Left) -->
         <div class="flex-shrink-0 lg:w-[400px]">
-          <img 
-            :src="previousPost.image" 
-            :alt="previousPost.title" 
-            class="w-full h-auto hero-drop-shadow" 
-          />
+          <router-link :to="previousPost.route" class="block">
+            <img 
+              :src="previousPost.image" 
+              :alt="previousPost.title" 
+              class="w-full h-auto hero-drop-shadow" 
+            />
+          </router-link>
         </div>
         
         <!-- Text Content (Right) -->
         <div class="flex flex-col items-start flex-grow xl:max-w-lg">
-          <h3 class="font-alumni font-bold text-[2rem] text-black dark:text-white mb-2 leading-[.9]">{{ previousPost.title }}</h3>
+          <h3 class="font-alumni font-bold text-[2rem] text-black dark:text-white mb-2 leading-[.9]">
+            <router-link :to="previousPost.route" class="hover:underline hover:decoration-accent decoration-accent underline-offset-4">
+              {{ previousPost.title }}
+            </router-link>
+          </h3>
           <p class="font-lato font-light text-body text-left text-black dark:text-white mb-4">
             {{ previousPost.excerpt }}
           </p>
