@@ -41,9 +41,6 @@
         <p class="font-lato text-body text-black dark:text-white leading-relaxed mb-6">
           They tasked us, “AI Champions,” to push the boundaries a bit. Not to figure out how to speed up the work we do, but to change it completely. With these tools in place and creative minds working with them, could we develop entirely new processes? Flip our workflow on its head and do things differently. But also better. Faster. More efficient.
         </p>
-        <p class="font-lato text-body text-black dark:text-white leading-relaxed mb-6">
-          I’m like Robocop, but with comfy clothes instead of armor.
-        </p>
       </div>
 
       <!-- Blockquote (full width) -->
