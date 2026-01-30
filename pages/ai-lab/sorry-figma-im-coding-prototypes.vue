@@ -36,7 +36,7 @@
       <!-- First content block -->
       <div class="ml-0 lg:ml-32 xl:ml-48 max-w-3xl mt-12">
         <p class="font-lato text-body text-black dark:text-white leading-relaxed mb-6">
-          The first time I did this was an endeavor unrelated to my design work. We had been using AI for most of the year at this point, but always to do simple things—analyzing data, summarizing meeting transcripts. (I used that em dash, damn it! That’s not AI! But that isn’t the revolutionary type of work that Leadership was hoping for.
+          The first time I did this was an endeavor unrelated to my design work. We had been using AI for most of the year at this point, but always to do simple things—analyzing data, summarizing meeting transcripts. (I used that em dash, damn it! That’s not AI!) But that isn’t the revolutionary type of work that Leadership was hoping for.
         </p>
         <p class="font-lato text-body text-black dark:text-white leading-relaxed mb-6">
           They tasked us, “AI Champions,” to push the boundaries a bit. Not to figure out how to speed up the work we do, but to change it completely. With these tools in place and creative minds working with them, could we develop entirely new processes? Flip our workflow on its head and do things differently. But also better. Faster. More efficient.
